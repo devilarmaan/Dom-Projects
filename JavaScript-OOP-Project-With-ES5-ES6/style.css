@@ -1,0 +1,44 @@
+
+body {
+    background: skyblue;
+}
+
+.progress {
+    display: none;
+}
+.alert {
+    margin: -15px auto 10px auto;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    display: block;
+    height: 40px;
+    line-height: 36px;
+    width:fit-content;
+    padding: 0 16px;
+    text-transform: uppercase;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.alert-danger {
+    background-color: #ef5350;
+}
+
+.alert-warning {
+    background-color: #ff9800;
+}
+
+.alert-info {
+    background-color: #26a69a;
+}
+
+.alert-success {
+    background-color: #24cc0d;
+}
